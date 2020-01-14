@@ -1,4 +1,4 @@
-# gulp-starter-kit
+# Gulp starter kit
 
 Install dependencies
 ```
