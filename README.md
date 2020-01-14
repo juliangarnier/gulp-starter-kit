@@ -1,5 +1,5 @@
 # Gulp starter kit
-A minimal Gulp config to compile ES modules to ES5 and to compile SASS files to CSS.
+A minimal Gulp config to watch and compile ES modules to ES5 and SASS files to CSS.
 
 ## Setup
 Install dependencies
