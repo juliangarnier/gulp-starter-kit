@@ -1,0 +1,55 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+video,
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  font-family: inherit;
+  -webkit-appearance: none;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  input:not([type="button"]),
+  input:not([type="submit"]),
+  select {
+    font-size: 16px!important;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: currentColor;
+}
+
+strong,
+b {
+  font-weight: 500;
+}

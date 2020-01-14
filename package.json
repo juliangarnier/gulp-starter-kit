@@ -1,0 +1,28 @@
+{
+  "name": "starter-kit",
+  "version": "1.0.0",
+  "author": "Julian Garnier",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-babel-minify": "^9.1.1"
+  },
+  "browserslist": [
+    "> .5%"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangarnier/gulp-starter-kit.git"
+  },
+  "description": "Compile ES modules & SASS with Autoprefixer and watch"
+}
